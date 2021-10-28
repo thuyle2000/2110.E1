@@ -1,0 +1,33 @@
+Faculty: Le Mong Thuy - thuyle2000@gmail.com / thuylm@fe.edu.vn
+
+Class Monitor : Nguyen Tien Dat (FB account: tien dat)
+
+Kênh liên lạc / tương tác hổ trợ : FB group - [T1.2110.E1]
+
+Link kho học liệu của học kỳ 1: https://bit.ly/3agyDLU
+
+Link học online : https://meet.google.com/xox-euvb-qqj
+
+
+Tom tat bai 1: Gioi thieu co ban ve C
+1/ Phan biet khai niem: software, program, command
+2/ NNLT C : middle level language
+3/ NNLT C co 32 tu khoa, duoc viet dang chu in thuong & ko duoc dung 
+   de dat ten cho bien (variable) va chuong trinh ham (function)   
+4/ NNLT C co phan biet chu thuong va hoa
+5/ 1 chuong trinh C, co the co nhieu ham (function), nhung ham dau tien
+   duoc thi hanh la ham main
+6/ Moi cau lenh phai ket thuc bang dau ;
+7/ Chu thich nhieu dong /* */
+   Chu thich 1 dong 	//
+8/ 3 cau truc lap trinh : tuan tu, re nhanh va vong lap
+9/ thuat giai : - cac buoc can phai thuc hien de giai quyet 1 van de.
+                - 2 cach trinh bay thuat giai: 
+                  ma gia (pseudo code), luu do (flow chart) 
+
+
+
+Home work:
+1/ Liet ke 32 tu khoa cua NN C
+2/ Lam bai tap tra loi cai hoi Check your progress cua session 1 (p 37)
+3/ Lam bai tap Try it yourself (p 38)
