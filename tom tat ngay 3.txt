@@ -92,3 +92,14 @@
 	- agr-list : là ds biến lưu các dữ liệu nhập.
                      trước tên biến, phải có ký hiệu & (toán tử địa chỉ)
 
+3. Hàm nhập 1 ký tự:
+ 	getchar() [enter để kết thúc lệnh] / getche() / getch()
+
+4. Hàm xuất 1 ký tự:
+	putchar()
+
+5. Hàm nhập 1 chuỗi ký tự :
+	gets()
+
+6. Hàm xuất 1 chuỗi ký tự:
+	puts()
