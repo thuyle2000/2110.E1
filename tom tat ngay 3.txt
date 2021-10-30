@@ -67,5 +67,28 @@
  	C. Parentheses 		D. None of the above
 
 
+*****************************************
+* session 6: Cac ham nhap nhap & xuat co ban
+*****************************************
+- được khai báo trong tập tin stdio.h
+- đó là các hàm printf(), scanf(), putchar(), getchar()
 
+1. Hàm xuất dữ liệu lên màn hình : printf()
+
+	printf("control string", arg-list)
+
+	- "control string" : là chuỗi chứa nội dung hiện trên màn hình
+	- agr-list : là ds các đối số (hằng, biến, biểu thức) muốn hiển thị
+                     giá trị trong "control string".
+                     mỗi đối số sẽ có 1 format-code tương ứng với kiểu dữ liệu
+		     %d : số nguyên, %f: số thực, %s: chuỗi, %c: 1 ký tự
+
+2. Hàm nhập dữ liệu và lưu vô các biến bộ nhơ: scanf()
+
+	scanf("control string", arg-list)
+
+	- "control string" : là chuỗi chứa các format-code tương ứng với các
+                             biến sẽ lưu các dữ liệu nhập
+	- agr-list : là ds biến lưu các dữ liệu nhập.
+                     trước tên biến, phải có ký hiệu & (toán tử địa chỉ)
 
