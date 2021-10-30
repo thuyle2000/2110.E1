@@ -1,0 +1,71 @@
+*****************************************
+* CYP session 2: variables & data types
+*****************************************
+1. C is case sensitive. (True / False)
+   True
+
+2. The number 10 is a __whole number__.
+
+3. The first character of the identifier can be a number. (True / False)
+   False
+
+4. Using the type __float__ saves memory as it takes only half the space as 
+   a __double__ would.
+
+5. The __void__ data type is used to indicate the C compiler that no value is being 
+   returned.
+
+6. _unary_ and _binary__ are the two classes of arithmetic operators.
+   B
+	A. Bitwise & and | 	B. Unary and Binary
+	C. Logical AND 		D. None of the above
+
+7. The unary arithmetic operators are ++ and – – .
+    A
+	A. ++ and – – 	B. % and ^
+	C. ^ and $ 	D. None of the above
+
+
+
+*****************************************
+* CYP session 4: operators & expressions
+*****************************************
+ 1. ___Operators___ are the tools that manipulate data.
+ 	A. Operators 		B. Operands
+ 	C. Expressions 		D. None of the above
+
+2. An __Expression__ consists of a combination of operators and operands.
+ 	A. Expression 		B. Functions
+ 	C. Pointers 		D. None of the above
+
+3. __Precedence__ establishes the hierarchy of one set of operators over 
+   another when an arithmetic expression has to be evaluated.
+ 	A. Operands 		B. Precedence
+ 	C. Operator 		D. None of the above
+
+4. _Mixed Mode Expression__ is one in which the operands of an operator belong to 
+   different data types.
+ 	A. Single Mode Expression 	B. Mixed Mode Expression
+ 	C. Precedence 			D. None of the above
+
+5. An expression can be forced to be of a certain type by using a __Cast___.
+ 	A. Cast 		B. Precedence
+ 	C. Operator 		D. None of the above
+
+6. __Logical Operators __ are used to combine or negate expressions containing relational 
+   operators.
+ 	A. Logical Operators 	B. Bitwise Operators
+ 	C. Complex Operators 	D. None of the above
+
+7. Bitwise logical operators are &, |, ~ and ^ .
+ 	A. % , ^ , * and @ 	B. &, |, ~ and ^
+ 	C. !, ], & and * 	D. None of the above
+
+8. The precedence of operators can be overridden by enclosing the required part 
+   of the expression in __Parentheses__.
+ 	A. Curly Brackets 	B. Caret Symbol
+ 	C. Parentheses 		D. None of the above
+
+
+
+

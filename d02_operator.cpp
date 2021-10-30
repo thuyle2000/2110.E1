@@ -15,9 +15,14 @@ int main(){
 	
 	printf("\n\n");
 	printf(">> Phep toan 1 ngoi: \n");
+	int c;
+	c = a++;			// c=a; a=a+1;
+	c = ++a;			// a=a+1; c=a;	
+	
 	printf("a = %d \n", a);
 	printf("Phep tang a++ : %d \n", a++);
 	printf("Phep tang ++a : %d \n", ++a);
+	
 } 
 
 
