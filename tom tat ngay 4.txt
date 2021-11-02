@@ -32,13 +32,14 @@ printed.
 ********************************************************
 * session 7: Lập trình rẽ nhánh có điều kiện (condition)
 ********************************************************
-
+- truong hop 1: if
   if(bieu thuc dk) {
 	cau lenh 1;
 	cau lenh 2;
   }
 
 
+- truong hop 2: if-else
   if(bieu thuc dk) {
 	cau lenh 1;
 	cau lenh 2;
@@ -46,4 +47,25 @@ printed.
   else {
 	cau lenh 3;
 	cau lenh 4;
+  }
+
+- truong hop 3: if-else-if bac thang
+  if(bieu thuc dk 1) {
+	cau lenh 1;
+	cau lenh 2;
+  }
+  else if (bieu thuc dk 2)  {
+	cau lenh 3;
+	cau lenh 4;
+  }
+  else if (bieu thuc dk 3)  {
+	cau lenh 5;
+	cau lenh 6;
+  }
+  else if (bieu thuc dk 4)  {
+	cau lenh 7;
+	cau lenh 8;
+  }
+  else{
+	cau lenh 9;
   }
