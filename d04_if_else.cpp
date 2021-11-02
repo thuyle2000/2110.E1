@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//demo lenh re nhanh co dieu kien
+//demo lenh re nhanh co dieu kien: if-else
 //kiem tra 1 so nguyen duoc nhap la so chan hay le
 int main(){
 	int n;
