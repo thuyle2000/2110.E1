@@ -101,3 +101,9 @@ switch(bieu-thuc){
 	. . .
 	default: khoi lenh cuoi; break;
 }
+
+baì toán: cho biết số ngày tối đa trong 1 tháng bất kỳ
+	  ví dụ: tháng 1 -> có 31 ngày
+		 tháng 4 -> có 30 ngày
+	 	 tháng 2 -> nhập năm => nếu năm nhuần -> 29 ngày / ngược lại 28 ngày
+ 
