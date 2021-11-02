@@ -69,3 +69,17 @@ printed.
   else{
 	cau lenh 9;
   }
+
+
+- truong hop 4: nested if ( if lồng nhau )
+  if(bieu thuc dk 1) {
+	if(bieu thuc dk 2) {
+		cau lenh 1;
+		cau lenh 2;
+	}
+	cau lenh 3;
+  }
+  else {
+	cau lenh 4;
+	cau lenh 5;
+  }
