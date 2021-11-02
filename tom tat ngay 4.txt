@@ -1,0 +1,49 @@
+*****************************************
+* CYP session 6: input & output in c
+*****************************************
+1. The formatted I/O functions are __printf() and scanf()__ .
+ 	A. printf() and scanf() 	B. getchar() and putchar()
+ 	C. puts() and gets() 		D. None of the above
+
+
+2. scanf() uses __pointers__ to variables rather than variable names.
+ 	A. functions 	B. pointers
+ 	C. arrays 	D. None of the above
+
+3. __format specifier___ specify the form by which the values of the variables are to be input and
+printed.
+	A. Text 	B. format specifier
+ 	C. argument 	D. None of the above
+
+4. _%__ is used by the printf() function to identify conversion specifications.
+ 	A. % 		B. &
+ 	C. * 		D. None of the above
+
+5. getchar() is a function without any arguments [T/F] T
+
+6. ___Buffer____ is a temporary storage area in memory.
+ 	A. ROM 		B. Register
+ 	C. Buffer 	D. None of the above
+
+7. Escape sequence can be placed outside the control string in printf(). [T/F] F
+
+
+
+********************************************************
+* session 7: Lập trình rẽ nhánh có điều kiện (condition)
+********************************************************
+
+  if(bieu thuc dk) {
+	cau lenh 1;
+	cau lenh 2;
+  }
+
+
+  if(bieu thuc dk) {
+	cau lenh 1;
+	cau lenh 2;
+  }
+  else {
+	cau lenh 3;
+	cau lenh 4;
+  }
