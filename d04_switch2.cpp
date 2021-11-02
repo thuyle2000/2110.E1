@@ -11,17 +11,20 @@ int main() {
 	int x, y;
 	char op;
 
+	
 	printf("nhap so nguyen thu 1 : ");
 	scanf("%d", &x);
 
 	printf("nhap so nguyen thu 2 : ");
 	scanf("%d", &y);
 
-	fflush(stdin);	//xoa bo dem cua ban phim
+	fflush(stdin);		//xoa bo dem cua ban phim
 	
 	printf("nhap phep toan [ + - * ? % ]: ");
 	scanf("%c", &op);
 
+	system("cls");		// lenh xoa man hinh
+	
 	switch(op) {
 		case '+':
 			printf(" %d + %d = %d \n", x, y, x+y);
