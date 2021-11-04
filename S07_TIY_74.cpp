@@ -8,8 +8,10 @@ int main() {
 	int basic,salary;
 	char grade;
 	printf(">>Calculate the salary at the end of the month \n");
+	
 	printf("Enter basic salary:");
 	scanf("%d", &basic);
+	
 	fflush(stdin);
 
 	printf("Enter grade [A - Z]: ");
