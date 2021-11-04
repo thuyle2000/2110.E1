@@ -1,0 +1,27 @@
+*****************************************
+* CYP session 7: Condition
+*****************************************
+
+1. _Conditional_ statements enable us to change the flow of a program.
+ A. Conditional 	B. Loop
+ C. Sequence 		D. None of the above
+
+2. The else statement is optional. (T/F) True
+
+3. A __Nested if__ is an if statement, which is placed within another if or else.
+ A. Multi if 		B. Nested if
+ C. switched if 	D. None of the above
+
+4. The _switch__ statement is a multi-way decision maker that tests the value 
+   of an expression against a list of integer or character constants.
+ A. Sequence 		B. if
+ C. switch 		D. None of the above
+
+5. if (expression)
+ 	statement 1
+   else
+ 	statement 2
+
+ Which statement will be executed when expression is false?  B
+ A. statement 1  	B. statement 2
+
