@@ -25,3 +25,14 @@
  Which statement will be executed when expression is false?  B
  A. statement 1  	B. statement 2
 
+
+* * * * * * * * * * * * * * * * *
+* Session 8 : Lap trinh Vong Lap
+* * * * * * * * * * * * * * * * *
+1/ vong lap FOR
+2/ vong lap WHILE
+3/ vong lap DO-WHILE
+4/ Lenh Break
+4/ Lenh Continue
+
+
