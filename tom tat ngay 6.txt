@@ -1,0 +1,33 @@
+1. ___loop______ allows a set of instructions to be performed until a certain condition is
+reached.
+ A. Loop 	B. Structure
+ C. Operator 	D. None of the above
+
+2. ___while_____ loops check the condition at the top of the loop which means the loop code is
+not executed, if the condition is false at the start.
+ A. while loop 		B. for loop
+ C. do..while loop 	D. None of the above
+
+3. A _semicolon__ is used to separate the three parts of the expression in a for loop.
+ A. comma 		B. semicolon
+ C. hyphen 		D. None of the above
+
+4. The ___do..while______ loop checks its condition at the end of the loop, that is after the loop has
+been executed.
+ A. while loop 		B. for loop
+ C. do..while loop 	D. None of the above
+
+5. The __return_____ statement causes execution to return to the point at which the call to the
+function was made.
+ A. exit 	B. return
+ C. goto 	D. None of the above
+
+6. The __goto_____ statement violates the rules of a strictly structured programming language.
+ A. exit 	B. return
+ C. goto 	D. None of the above
+
+7. The ___exit____ function causes immediate termination of the program and control is
+transferred back to the operating system
+ A. exit 	B. return
+ C. goto 	D. None of the above
+
