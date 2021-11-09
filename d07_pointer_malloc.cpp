@@ -47,6 +47,8 @@ int main() {
 		for(int i=0; i<n; i++) {
 			printf(" %d ", *(p+i));
 		}
+		
+		free(p);
 
 	} else {
 		printf("Viec cap phat bo nho that bai ! \n");
