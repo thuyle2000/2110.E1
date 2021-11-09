@@ -1,0 +1,39 @@
+************************************************
+* CYP : Session 11 - Array
+************************************************
+
+1. An __Array___ is a collection of data elements of the same type that are 
+   referred by a common name.
+ A. Loop 		B. Array
+ C. Structure 		D. None of the above
+
+2. Each member of an array is identified by the unique _Index/Subscrip_ 
+   assigned to it.
+ A. Index, Subscript 	B. Bound, Index
+ C. None of the above
+
+3. An array name and a variable name can be the same. (T/F) F
+
+4. Each element of an array cannot be used where a variable is allowed or 
+   required. (T/F) F
+
+5. Two arrays, even if they are of the same type and size, cannot be tested 
+   for __________.
+ A. Condition 		B. Negation
+ C. Equality 		D. None of the above
+
+6. String can be defined as a character type array, which is terminated by 
+   a _NULL____ character.
+ A. semicolon 		B. comma
+ C. NULL 		D. None of the above
+
+7. Arrays can have more than one dimension. (T/F) T
+
+8. The comparison of two strings is done with the help of _strcmp______ whereas 
+   the interchanging is done by _strcpy_____.
+ A. strcmp,strcpy 	B. strcat,strcpy
+ C. strlen,strcat 	D. None of the above
+
+
+
+
