@@ -10,16 +10,16 @@
 void xchange(int &a, int &b);
 
 int main() {
-	int a, b;
+	int x, y;
 	printf("nhap so nguyen a: ");
-	scanf("%d", &a);
+	scanf("%d", &x);
 	printf("nhap so nguyen b: ");
-	scanf("%d", &b);
+	scanf("%d", &y);
 	
-	xchange(a,b);
+	xchange(x,y);
 	
 	printf(">> Ham main(), sau khi goi ham xchange(): \n");
-	printf("   a = %d, b= %d \n", a,b);
+	printf("   x = %d, y= %d \n", x,y);
 }
 
 //ham hoan doi gia tri cua 2 tham so a, b

@@ -26,7 +26,7 @@ void print_star(int n){
 		}
 		printf("\n");
 	}
-	i=8;
+	
 	return;
 }
 
