@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+//demo lap trinh ham - version 1 - ko tham so 
 void print_star(){
 	int n=5;
 	for(int i=0; i<n; i++){
