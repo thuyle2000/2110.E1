@@ -4,7 +4,7 @@
 
 //demo ve mang cau truc
 //viet chuong trinh quan ly danh sach cac san pham:
-//    nhap ds sp va in ra ds sp co don gia > 10000
+//    nhap ds sp va in ra ds sp co ten muon tim
 
 //1. dinh nghia mau cau truc san pham : id, name, price
 struct PRODUCT {
@@ -54,12 +54,17 @@ int main() {
 		printf("\n");
 	}
 
+	fflush(stdin);
+	char ten[31];
+	printf("\n >> nhap ten sp muon tim: ");
+	gets(ten);
 
-	//7. vong lap for in ra bang danh sach san pham co don gia >10000
-	printf("\n\n Danh sach san pham co don gia >10000 \n");
+
+	//6. vong lap for tim san pham co ten muon tim
+	printf("\n\n Danh sach san pham co ten [%s] \n", ten);
 	int count=0;
 	for(int i=0; i<n; i++) {
-		if(ds[i].price>10000) {
+		if( strstr(ds[i].name, ten)) {
 			printf("%-6s ", ds[i].id);
 			printf("%-20s ", ds[i].name);
 			printf("%7d ", ds[i].price);
@@ -69,7 +74,7 @@ int main() {
 		}
 	}
 
-	printf(" >> Tim thay %d san pham co don gia > 10000 \n", count);
+	printf(" >> Tim thay %d san pham co ten [%s]\n", count, ten);
 
 }
 
