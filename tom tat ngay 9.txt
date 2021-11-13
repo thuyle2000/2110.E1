@@ -1,0 +1,124 @@
+CYP Session 15
+1. A _function__ is a self-contained program segment 
+that carries out a specific, well defined task.
+
+2. Arguments appearing in the parentheses are termed 
+as __formal argument _____________.
+
+3. If the return is ignored, control passes to the calling program 
+when the closing braces of the code block are encountered. 
+This is termed as __return / return 0_____.
+
+4. The function, which calls another function, is known as 
+the ___calling function____ and the function, which is being called, is 
+known as the __called function__________.
+
+5. A __prototype_____ is a function declaration that specifies the data 
+types of the arguments.
+
+6. __local variable____ can be referred to only by statements that are 
+inside the code block, which declares them.
+
+
+7. __global variable____ are visible to the entire program, and can be used by any 
+piece of code.
+
+
+8. __scope rules____ govern whether one piece of code knows about or has access to 
+another piece of code or data
+
+
+9. Arguments are said to be passed __by value____ when the value of the variables 
+are passed to the called function
+
+
+10. In__call by reference__, the function is allowed access to the actual memory 
+location of the argument.
+
+
+
+
+
+
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Session 17: Lập trình chuỗi ký tự (String) 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+1/ string : 
+   là 1 mãng ký tự đặc biệt, luôn luôn kết thúc bằng ký tự Null.
+   hằng chuỗi được đặt trong cặp dấu nháy đôi, vd "hello"
+
+2/ nhập / xuất chuỗi:
+   gets(...) / scanf("%[\n]s", ...)
+   puts(...) / printf("%s", ...)
+
+3/ hàm xử lý chuỗi / văn bản:
+   được khai báo trong tập tin <string.h>
+   - nối chuỗi : 
+	strcat(s1, s2); // s1 = s1+s2
+
+   - so sánh chuỗi : 
+	strcmp(s1, s2); // =0 nếu s1=s2, =-1 nếu s1<s2, =1 nếu s1>s2
+
+   - tìm 1 ký tự trong chuỗi : 
+	strchr(s1, ch); // null nếu ko tìm thấy ch trong chuỗi s1
+
+   - tìm 1 chuỗi bên trong 1 chuỗi khác : 
+	strstr(s1, s2); // null nếu ko tìm thấy chuỗi s2 trong s1
+  
+   - sao chép chuỗi
+	strcpy(s1, s2);	// s1 = s2
+
+   - đếm số ky tự bên trong chuỗi (ko bao gồm ký tự null)
+    	strlen(s1)
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Session 19: Lập trình kiểu dữ liệu nâng cao Cấu trúc (structure)
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+1/ Structure: là 1 kiểu dữ liệu nâng cao, cho phép tập hợp nhiều thành phần
+              dữ liệu khác nhau để mô tả cho 1 đối tượng nào đó.
+              vd : 
+		đối tượng sinh viên: mã số (int/string), 
+                                     họ tên (string), 
+				     năm sinh (int), 
+				     email (string), 
+				     điểm kq thi (float)
+   
+		đối tượng sản phẩm:  mã số (int / string)
+                                     tên sp (string), 
+				     mô tả (string), 
+				     đơn giá (int)
+
+		đối tượng nhân viên: mã số (int/string), 
+                                     họ tên (string), 
+				     chức vụ (string),
+				     năm sinh (int), 
+				     phone (string), 
+				     lương cb (int)
+
+2/ để làm việc với biến cấu trúc, phải thực hiện 2 bước:
+	- bước 1 : định nghĩa kiếu dữ liệu cấu trúc (struct BOOK)
+	  	   vd : struct BOOK {
+			   char title[31];
+			   char author[31];
+		    	   int price;
+			};
+
+	- bước 2 : khai báo / tạo biến bộ nhớ có kiểu dữ liệu cấu trúc (b1, b2)
+		   vd : struct BOOK b1, b2;
+
+3/ truy cập nội dung của các thành phần trong biến cấu trúc, sử dụng toán tử dấu chấm
+	ví dụ : b1.title, b2.price
+
+
+
+
+
+
+   

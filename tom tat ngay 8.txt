@@ -1,0 +1,83 @@
+CYP Session 13 : pointer
+
+1. b - pointer
+A _________ provides a way of accessing a variable without referring to the variable
+directly.
+
+2. False
+Pointers cannot point to arrays. (T/F)
+
+3. a - Type
+The __________ of the pointer defines what type of variables the pointer can point to
+
+4. c - * and &
+The two special operators used with pointers are ____ and _____.
+
+5. a - Addition, Subtraction
+________ and __________ are the only operations, which can be performed on
+pointers.
+
+6. False
+Two pointers can be compared only if both these variables are pointing to variables of
+different types. (T/F)
+
+7. a - Dynamic Memory Allocation
+The allocation of memory in this manner, that is, as and when required in a program is
+known as __________ .
+
+
+* * * * * * * * * * * * * * * * * * * *
+* Session 15: Lap trinh ham (Function)
+* * * * * * * * * * * * * * * * * * * *
+1/ Function : 1 đoạn chương trình độc lập thực hiện 1 nhiệm vụ
+   cụ thể, được thực hiện nhiều lần trong chương trình.
+
+2/ Hàm thư viện : hàm được viết sẳn của các NNLT để giúp thực hiện
+                  các công việc cơ bản, giúp cho việc lập trình được
+                  nhanh hơn, hiệu quả hơn.
+
+   ví dụ: printf() / scanf() / gets() / getchar() / getche() / putchar() / puts()
+ 	  strlen() / strcat() / strcmp() / strchr() / strcpy() / strstr() 
+	  malloc() / calloc() / realloc() / free()
+
+
+3/ cú pháp của 1 ct hàm
+	type_specifier function_name(args){
+		body of function
+	}
+
+
+	kiểu-dữ-liệu   tên_hàm(ds tham số){
+		thân hàm
+	}
+
+4/ tham số của chương trình hàm :
+  - tham số hình thức (biến xuất hiện ở định nghĩa hàm, bao gồm kiểu dữ liệu)
+  - tham số thực tế (biến, hằng, biếu thức ... xuất hiện ở dòng lệnh gọi hàm)
+
+  
+5/ giá trị trả về của chương trình hàm:
+  - nếu hàm có kiểu khác void, hàm phải có giá trị trả về viết ngay sau lệnh return.
+
+6/ nguyên mẫu hàm (function prototype): là khai báo hàm bao gồm kiểu - tên hàm - ds đối số
+
+
+7/ Biến bộ nhớ:
+  - biến cục bộ (local): phạm vi thuộc chương trinh hàm hoặc khối lệnh khai báo biến
+  - biến toàn cục (global): được khai báo bên ngoài các chương trình hàm - hàm nào 
+                            cũng có thể truy cập biến này được.
+  - tham biến hình thức (formal parameter): chính là tham số hình thức của ct hàm,
+                                            phạm vi sử dụng là cục bộ cho chương trình hàm. 
+  
+8/ Phương pháp truyền tham số:
+  - truyền giá tri (default - pass by value): giá trị của ts thực tế gởi cho ts hình thức.
+                              và ts thực tế ko bị thay đổi sau khi hàm thi hành xong
+
+  - truyền địa chỉ (pass by reference): địa chỉ của ts thực tế đc gởi cho ts hình thức,
+                              và vì vậy gtri của ts thực tế có thể bị thay đổi sau khi
+                              gọi hàm.
+
+9/ con trỏ hàm:
+  - hàm đặc biệt, chứa địa chỉ của hàm khác.
+
+
