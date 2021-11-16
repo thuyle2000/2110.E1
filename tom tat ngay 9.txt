@@ -37,13 +37,6 @@ location of the argument.
 
 
 
-
-
-
-
-
-
-
 * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * Session 17: Lập trình chuỗi ký tự (String) 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * *
