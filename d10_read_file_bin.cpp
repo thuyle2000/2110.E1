@@ -16,8 +16,7 @@ int main() {
 		fread(buffer,sizeof(buffer),1, f);
 		printf("%s", buffer );
 	}
-	
-	
+		
 	//b3. dong file
 	fclose(f);
 	
